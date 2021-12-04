@@ -58,7 +58,7 @@
           "shortcut": ""
         }
       ],
-      "key": "beforeYouCancelPleaseLetUsKnowTheReasonYouAreLeavingEveryBitOfFeedbackHelps",
+      "key": "reasons",
       "type": "selectboxes",
       "input": true,
       "inputType": "checkbox",
