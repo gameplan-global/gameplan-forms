@@ -1,0 +1,86 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "label": "HTML",
+      "attrs": [
+        {
+          "attr": "",
+          "value": ""
+        }
+      ],
+      "content": "<h2>We're sad to see you go...</h2>\n\n<p>\nBefore you cancel, please let us know the reason you are leaving. Every bit of feedback helps!\n</p>",
+      "refreshOnChange": false,
+      "key": "html",
+      "type": "htmlelement",
+      "input": false,
+      "tableView": false
+    },
+    {
+      "label": "Reasons",
+      "optionsLabelPosition": "right",
+      "hideLabel": true,
+      "tableView": false,
+      "values": [
+        {
+          "label": "Technical Issues",
+          "value": "technicalIssues",
+          "shortcut": ""
+        },
+        {
+          "label": "Too expensive",
+          "value": "tooExpensive",
+          "shortcut": ""
+        },
+        {
+          "label": "Switching To Another Product",
+          "value": "switchingToAnotherProduct",
+          "shortcut": ""
+        },
+        {
+          "label": "Shutting down the company",
+          "value": "shuttingDownTheCompany",
+          "shortcut": ""
+        },
+        {
+          "label": "Not sure how to use the data & tools",
+          "value": "notSureHowToUseTheDataTools",
+          "shortcut": ""
+        },
+        {
+          "label": "Missing features I need",
+          "value": "missingFeaturesINeed",
+          "shortcut": ""
+        },
+        {
+          "label": "Other (please explain below)",
+          "value": "otherPleaseExplainBelow",
+          "shortcut": ""
+        }
+      ],
+      "key": "beforeYouCancelPleaseLetUsKnowTheReasonYouAreLeavingEveryBitOfFeedbackHelps",
+      "type": "selectboxes",
+      "input": true,
+      "inputType": "checkbox",
+      "defaultValue": {
+        "technicalIssues": false,
+        "tooExpensive": false,
+        "switchingToAnotherProduct": false,
+        "shuttingDownTheCompany": false,
+        "notSureHowToUseTheDataTools": false,
+        "missingFeaturesINeed": false,
+        "otherPleaseExplainBelow": false
+      }
+    },
+    {
+      "label": "Extra information",
+      "placeholder": "Anything you want to share? (Optional)",
+      "autoExpand": false,
+      "hideLabel": true,
+      "tableView": true,
+      "key": "extraInformation",
+      "type": "textarea",
+      "input": true
+    }
+  ]
+}
