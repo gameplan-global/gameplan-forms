@@ -21,6 +21,15 @@
       "optionsLabelPosition": "right",
       "hideLabel": true,
       "tableView": false,
+      "defaultValue": {
+        "technicalIssues": false,
+        "tooExpensive": false,
+        "switchingToAnotherProduct": false,
+        "shuttingDownTheCompany": false,
+        "notSureHowToUseTheDataTools": false,
+        "missingFeaturesINeed": false,
+        "otherPleaseExplainBelow": false
+      },
       "values": [
         {
           "label": "Technical Issues",
@@ -53,6 +62,11 @@
           "shortcut": ""
         },
         {
+          "label": "I didn't like the icons",
+          "value": "iDidntLikeTheIcons",
+          "shortcut": ""
+        },
+        {
           "label": "Other (please explain below)",
           "value": "otherPleaseExplainBelow",
           "shortcut": ""
@@ -61,16 +75,7 @@
       "key": "reasons",
       "type": "selectboxes",
       "input": true,
-      "inputType": "checkbox",
-      "defaultValue": {
-        "technicalIssues": false,
-        "tooExpensive": false,
-        "switchingToAnotherProduct": false,
-        "shuttingDownTheCompany": false,
-        "notSureHowToUseTheDataTools": false,
-        "missingFeaturesINeed": false,
-        "otherPleaseExplainBelow": false
-      }
+      "inputType": "checkbox"
     },
     {
       "label": "Extra information",
