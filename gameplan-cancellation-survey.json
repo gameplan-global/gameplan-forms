@@ -9,7 +9,7 @@
           "value": ""
         }
       ],
-      "content": "<h2>We're sad to see you go...</h2>\n\n<p>\nBefore you cancel, please let us know the reason you are leaving. Every bit of feedback helps!\n</p>",
+      "content": "<h2>We're sad to see you go...</h2>\n\n<p>\nPlease can you let us know why you are leaving?\n</p>\n<p>\n  Your input will really help us. Thank you!\n</p>",
       "refreshOnChange": false,
       "key": "html",
       "type": "htmlelement",
@@ -17,72 +17,15 @@
       "tableView": false
     },
     {
-      "label": "Reasons",
-      "optionsLabelPosition": "right",
-      "hideLabel": true,
-      "tableView": false,
-      "defaultValue": {
-        "technicalIssues": false,
-        "tooExpensive": false,
-        "switchingToAnotherProduct": false,
-        "shuttingDownTheCompany": false,
-        "notSureHowToUseTheDataTools": false,
-        "missingFeaturesINeed": false,
-        "otherPleaseExplainBelow": false
-      },
-      "values": [
-        {
-          "label": "Technical Issues",
-          "value": "technicalIssues",
-          "shortcut": ""
-        },
-        {
-          "label": "Too expensive",
-          "value": "tooExpensive",
-          "shortcut": ""
-        },
-        {
-          "label": "Switching To Another Product",
-          "value": "switchingToAnotherProduct",
-          "shortcut": ""
-        },
-        {
-          "label": "Shutting down the company",
-          "value": "shuttingDownTheCompany",
-          "shortcut": ""
-        },
-        {
-          "label": "Not sure how to use the data & tools",
-          "value": "notSureHowToUseTheDataTools",
-          "shortcut": ""
-        },
-        {
-          "label": "Missing features I need",
-          "value": "missingFeaturesINeed",
-          "shortcut": ""
-        },
-        {
-          "label": "I didn't like the icons",
-          "value": "iDidntLikeTheIcons",
-          "shortcut": ""
-        },
-        {
-          "label": "Other (please explain below)",
-          "value": "otherPleaseExplainBelow",
-          "shortcut": ""
-        }
-      ],
-      "key": "reasons",
-      "type": "selectboxes",
-      "input": true,
-      "inputType": "checkbox"
-    },
-    {
       "label": "Extra information",
-      "placeholder": "Anything you want to share? (Optional)",
+      "placeholder": "Thank you for your feedback...",
+      "rows": 8,
       "autoExpand": false,
       "hideLabel": true,
       "tableView": true,
+      "validate": {
+        "required": true
+      },
       "key": "extraInformation",
       "type": "textarea",
       "input": true
