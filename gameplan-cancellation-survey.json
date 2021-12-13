@@ -9,7 +9,7 @@
           "value": ""
         }
       ],
-      "content": "<h2>We're sad to see you go...</h2>\n\n<p>\nPlease can you let us know why you are leaving?\n</p>\n<p>\n  Your input will really help us. Thank you!\n</p>",
+      "content": "<p>\nPlease can you let us know why you are leaving?\n</p>\n<p>\nThank you. Your input will really help us. \n</p>",
       "refreshOnChange": false,
       "key": "html",
       "type": "htmlelement",
